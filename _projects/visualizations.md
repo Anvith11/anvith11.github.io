@@ -21,12 +21,14 @@ Using a **bar chart encoding**, I mapped `City` to the x-axis (nominal) and `cou
 
 No major data transformations were needed beyond filtering out null city values in Python. The result offers an easy way to identify which cities have the largest building inventories and what types dominate those regions.
 
-<h2>Plot 1: City vs Building Count</h2>
+<!-- <h2>Plot 1: City vs Building Count</h2>
 <p>Write-up paragraph about what you visualized, encodings, color, etc.</p>
 <div id="vis1"></div>
 <script type="text/javascript">
-vegaEmbed('#vis1', 'python_notebooks/plot1.json');
-</script>
+vegaEmbed('#vis1', 'https://python_notebooks/plot1.json');
+</script> -->
+
+<vegachart schema-url="{{ site.baseurl }}/python_notebooks/plot1.json" style="width: 100%"></vegachart>
 
 ---
 

@@ -28,7 +28,7 @@ No major data transformations were needed beyond filtering out null city values 
 vegaEmbed('#vis1', 'https://python_notebooks/plot1.json');
 </script> -->
 
-<vegachart schema-url="{{ site.baseurl }}/python_notebooks/plot1.json" style="width: 100%"></vegachart>
+<vegachart schema-url="{{ site.baseurl }}/python_notebooks/f10.json" style="width: 100%"></vegachart>
 
 ---
 

@@ -1,5 +1,7 @@
 ---
-layout: default
+name: Homework 5
+tools: [Python, HTML, altair]
+image: assets/pngs/cars.png
 title: Visualization Assignment
 ---
 

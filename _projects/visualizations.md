@@ -1,7 +1,7 @@
 ---
 name: Homework 5
 tools: [Python, HTML, altair, vega-lite]
-image: assets/pngs/cars.png
+image: assets/pngs/hw5.jpg
 title: Visualization Assignment - Homework 5
 custom_js:
   - vega.min

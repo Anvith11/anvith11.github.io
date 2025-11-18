@@ -60,3 +60,13 @@ vegaEmbed('#vis2', 'python_notebooks/plot2.json');
 ## 🧩 Technical Details
 
 These visualizations were created in a Jupyter notebook using Python, Pandas, and Altair, then exported as JSON specifications (`plot1.json` and `plot2.json`) and embedded here using Vega-Lite.
+
+## Data & Methods
+Link to Data:
+<div class="left">
+{% include elements/button.html link="https://raw.githubusercontent.com/UIUC-iSchool-DataViz/is445_data/main/building_inventory.csv" text="The Data" %}
+</div>
+
+<div class="right">
+{% include elements/button.html link="https://github.com/Anvith11/Anvith11.github.io/blob/main/python_notebooks/Workbook.ipynb" text="The Analysis" %}
+</div>

@@ -10,7 +10,7 @@ custom_js:
   - justcharts
 ---
 
-# 🧠 Visualization Assignment — Building Inventory Dataset
+# 🧠 Visualization Assignment — Homework 5
 
 Below are two visualizations created using **Python + Altair + Vega-Lite** based on the University of Illinois building inventory dataset.
 
@@ -33,8 +33,8 @@ No major data transformations were needed beyond filtering out null city values 
 vegaEmbed('#vis1', 'https://python_notebooks/plot1.json');
 </script> -->
 
-<!-- <vegachart schema-url="{{ site.baseurl }}/python_notebooks/f10.json" style="width: 100%"></vegachart> -->
-<vegachart schema-url="/assets/json/cars.json" style="width: 100%"></vegachart>
+<vegachart schema-url="{{ site.baseurl }}/python_notebooks/f10.json" style="width: 100%"></vegachart>
+<!-- <vegachart schema-url="/assets/json/cars.json" style="width: 100%"></vegachart> -->
 ---
 
 ## 🏗️ Plot 2: Relationship Between Year Acquired and Square Footage

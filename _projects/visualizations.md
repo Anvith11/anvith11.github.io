@@ -33,7 +33,7 @@ No major data transformations were needed beyond filtering out null city values 
 vegaEmbed('#vis1', 'https://python_notebooks/plot1.json');
 </script> -->
 
-<vegachart schema-url="{{ site.baseurl }}/assets/json/f10.json" style="width: 100%"></vegachart>
+<vegachart schema-url="{{ site.baseurl }}/assets/json/plot1.json" style="width: 100%"></vegachart>
 
 <!-- <vegachart schema-url="{{ site.baseurl }}/assets/json/cars.json" style="width: 100%"></vegachart> -->
 ---
@@ -46,12 +46,14 @@ The chart includes **interactive selection**: when hovering or selecting a city,
 
 In data preparation, I filtered out buildings with missing or invalid year or square footage values and ensured that the x-axis starts slightly below the minimum year (for cleaner presentation).
 
-<h2>Plot 2: Year Acquired vs Square Footage</h2>
+<!-- <h2>Plot 2: Year Acquired vs Square Footage</h2>
 <p>Write-up paragraph about what you visualized and interactivity.</p>
 <div id="vis2"></div>
 <script type="text/javascript">
 vegaEmbed('#vis2', 'python_notebooks/plot2.json');
-</script>
+</script> -->
+
+<vegachart schema-url="{{ site.baseurl }}/assets/json/plot2.json" style="width: 100%"></vegachart>
 
 ---
 
@@ -59,11 +61,12 @@ vegaEmbed('#vis2', 'python_notebooks/plot2.json');
 
 These visualizations were created in a Jupyter notebook using Python, Pandas, and Altair, then exported as JSON specifications (`plot1.json` and `plot2.json`) and embedded here using Vega-Lite.
 
-<script src="https://cdn.jsdelivr.net/npm/vega@5"></script>
-<script src="https://cdn.jsdelivr.net/npm/vega-lite@5"></script>
-<script src="https://cdn.jsdelivr.net/npm/vega-embed@6"></script>
+## Data & Methods
+Link to Data:
+<div class="left">
+{% include elements/button.html link="https://raw.githubusercontent.com/UIUC-iSchool-DataViz/is445_data/main/building_inventory.csv" text="The Data" %}
+</div>
 
-<script type="text/javascript">
-  vegaEmbed('#vis1', 'python_notebooks/plot1.json').catch(console.error);
-  vegaEmbed('#vis2', 'python_notebooks/plot2.json').catch(console.error);
-</script>
+<div class="right">
+{% include elements/button.html link="https://github.com/Anvith11/Anvith11.github.io/blob/main/python_notebooks/Workbook.ipynb" text="The Analysis" %}
+</div>

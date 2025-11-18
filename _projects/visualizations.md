@@ -3,6 +3,7 @@ name: Homework 5
 tools: [Python, HTML, altair, vega-lite]
 image: assets/pngs/hw5.jpg
 title: Visualization Assignment - Homework 5
+description: This is my work for Homework 5, essentially practice for Final Project
 custom_js:
   - vega.min
   - vega-lite.min
